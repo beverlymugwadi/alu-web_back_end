@@ -40,3 +40,4 @@ class Server:
         assert (page > 0 and page_size > 0)
         beginning, end = index_range(page, page_size)
         return self.dataset()[beginning:end]
+    
