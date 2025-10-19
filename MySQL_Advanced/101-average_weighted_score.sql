@@ -1,3 +1,5 @@
+-- project scores and the respective project weights
+
 DELIMITER $$
 
 CREATE PROCEDURE ComputeAverageWeightedScoreForUsers()
@@ -17,7 +19,7 @@ BEGIN
             LEAVE read_loop;
         END IF;
 
-        -- Compute and update average weighted score for this user
+        -- Compute and update the average weighted score for this user
         UPDATE users
         SET average_score = (
             SELECT 
