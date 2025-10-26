@@ -11,3 +11,4 @@ describe('task functions tests', () => {
     expect(taskNext()).toBe('But sometimes let is okay');
   });
 });
+
