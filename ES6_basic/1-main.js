@@ -1,4 +1,4 @@
-import taskBlock from './1-block-scoped.js';
+import taskBlock from './1-block-scoped';
 
-console.log(taskBlock(true));   // Test when input is true
-console.log(taskBlock(false));  // Test when input is false]
+console.log(taskBlock(true));
+console.log(taskBlock(false));
