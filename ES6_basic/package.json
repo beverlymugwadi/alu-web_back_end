@@ -1,6 +1,5 @@
 {
   "scripts": {
-   
     "lint": "eslint 0-constants.js",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",

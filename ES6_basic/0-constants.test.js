@@ -1,7 +1,7 @@
 import { taskFirst, taskNext } from './0-constants.js';
 
 describe('task functions tests', () => {
-  test('TaskFirst should return correct string', () => {
+  test('taskFirst should return correct string', () => {
     expect.assertions(1);
     expect(taskFirst()).toBe('I prefer const when I can.');
   });
